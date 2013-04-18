@@ -18,3 +18,4 @@ Procfile
 config/database.yml
 
 gumby.sublime*
+.rvmrc
