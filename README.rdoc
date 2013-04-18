@@ -9,3 +9,5 @@ but I prefer to override them in the separate folder *app/assets/stylesheets/myg
 
 Put in *app/assets/stylesheets/mygumby/_vars.scss* your overrides of *app/assets/stylesheets/gumby/var/_settings.scss* values.
 Put in *app/assets/stylesheets/mygumby/_style.scss* your css styles.
+
+Checkout live app at http://gumby-on-rails-demo.herokuapp.com/.
