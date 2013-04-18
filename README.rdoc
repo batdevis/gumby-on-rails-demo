@@ -1,6 +1,6 @@
-*Gumby Framework on Rails*
+Gumby Framework on Rails
 
-This is a simple example rails app with a working [Gumby framework](http://gumbyframework.com) installation.
+This is a simple example rails app with a working Gumby framework (http://gumbyframework.com) installation.
 
 Click on the *GRID* and *UI* links on top menu to switch between the two example pages.
 
