@@ -1,0 +1,107 @@
+//grid
+
+body.page-grid .container{
+
+  .column, .columns, .tiles > li {
+    background: #ddd;
+        border: 1px solid #d0d0d0;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  .column:hover, .columns:hover {
+    background: #efefef;
+    cursor: pointer;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+  }
+
+  .row {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  h1, h2 {
+    font: bold italic 120px georgia, times new roman, serif;
+    color: #555;
+    letter-spacing: -.09em;
+    -webkit-transition-duration: 1s;
+  }
+
+  h2  {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.6;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 60px;
+    margin-bottom: 0;
+    color: #555;
+
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    transition-duration: .2s;
+  }
+
+  .column:hover p, .columns:hover p {
+    font-size: 25px;
+    font-weight: bold;
+
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    transition-duration: .2s;
+  }
+
+  .head, .head:hover {
+    box-shadow: none;
+    margin-top: 30px;
+  }
+
+  .head span {
+    font-weight: bold;
+    color: #353535;
+  }
+
+  .head span span {
+    font-size: 32px;
+    font-weight: bold !important;
+  }
+
+  a {
+    color: #d04526;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  .special, .special:hover {
+    background: transparent;
+        border: none;
+  }
+
+  .special:hover p {
+    color: #ffe400;
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    h1 {
+      font: bold italic 100px georgia, times new roman, serif;
+      -webkit-transition-duration: .5s;
+    }
+
+  }
+}
